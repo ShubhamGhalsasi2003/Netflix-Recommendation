@@ -1,4 +1,4 @@
-# 🎬 Netflix Movie Recommendation System
+#  Netflix Movie Recommendation System
 
 This is a content-based movie recommender system that uses TF-IDF vectorization and cosine similarity to suggest similar movies based on user input. It includes an interactive UI built with Streamlit.
 
