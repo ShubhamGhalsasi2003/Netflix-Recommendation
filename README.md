@@ -1,4 +1,5 @@
-![Python](https://img.shields.io/badge/Tool-Python-blue) ![Streamlit](https://img.shields.io/badge/Tool-Streamlit-red)   ![CSV](https://img.shields.io/badge/Data-CSV-yellow)   ![Completed](https://img.shields.io/badge/Status-Completed-success)
+![Python](https://img.shields.io/badge/Tool-Python-blue) ![Pandas](https://img.shields.io/badge/Tool-Pandas-lightblue) ![NumPy](https://img.shields.io/badge/Tool-NumPy-orange) ![Matplotlib](https://img.shields.io/badge/Tool-Matplotlib-red) ![Seaborn](https://img.shields.io/badge/Tool-Seaborn-teal) ![Scikit--learn](https://img.shields.io/badge/Tool-Scikit--learn-yellow) ![Jupyter](https://img.shields.io/badge/Tool-Jupyter-orange)  ![Excel](https://img.shields.io/badge/Data-Excel-green)  ![Completed](https://img.shields.io/badge/Status-Completed-success)
+
 
 
 # 🎬 Netflix Recommendation System
