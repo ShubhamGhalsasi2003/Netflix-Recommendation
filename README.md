@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Tool-Python-blue) ![Streamlit](https://img.shields.io/badge/Tool-Streamlit-red)   ![CSV](https://img.shields.io/badge/Data-CSV-yellow)   ![Completed](https://img.shields.io/badge/Status-Completed-success)
+
+
 # 🎬 Netflix Recommendation System
 
 This project implements a **Recommendation System** using the Netflix dataset.
