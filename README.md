@@ -5,14 +5,14 @@
 
 
 
-# 🎬 Netflix Recommendation System
+#  Netflix Recommendation System
 
 This project implements a **Recommendation System** using the Netflix dataset.
 It suggests movies/shows to users based on their preferences, viewing history, and similarity with other users/items.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 * Built using **Jupyter Notebook (Python)**
 * Uses **Collaborative Filtering & Content-Based Filtering** approaches
@@ -21,7 +21,7 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## ⚙️ Tech Stack & Libraries
+##  Tech Stack & Libraries
 
 * **Python**
 * **Pandas** – Data processing
@@ -32,7 +32,7 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## 📂 Files in this Repository
+##  Files in this Repository
 
 * `Netflix_Recommendation.ipynb` – Main Jupyter Notebook with code & results
 * `netflix_titles.csv` – Dataset used for training/testing
@@ -40,7 +40,7 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## 🔍 Key Steps Implemented
+##  Key Steps Implemented
 
 1. **Data Collection & Cleaning**
 
@@ -64,7 +64,7 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## 🎯 Results
+##  Results
 
 * Content-Based: Suggests movies similar to the one user liked
 * Collaborative: Suggests movies based on other users with similar tastes
@@ -72,7 +72,7 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
    
 1. Install required libraries:
@@ -89,9 +89,9 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
-✅ Example: If a user liked *"Inception"*, the model suggests:
+Example: If a user liked *"Inception"*, the model suggests:
 
 * Interstellar
 * The Prestige
