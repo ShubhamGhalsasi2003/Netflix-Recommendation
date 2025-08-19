@@ -71,12 +71,12 @@ It suggests movies/shows to users based on their preferences, viewing history, a
 1. Install required libraries:
 
      bash
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 2. Open Jupyter Notebook:
 
      bash
-   jupyter notebook
+   `jupyter notebook`
    
 3. Run `Netflix_Recommendation.ipynb`
 
