@@ -1,87 +1,93 @@
-#  Netflix Movie Recommendation System
+# 🎬 Netflix Recommendation System
 
-This is a content-based movie recommender system that uses TF-IDF vectorization and cosine similarity to suggest similar movies based on user input. It includes an interactive UI built with Streamlit.
-
----
-
-## 📌 Features
-
-- Input any movie title and get a list of similar movies
-- Content-based filtering using overview, genre, and other metadata
-- Simple Streamlit-based web interface
-- Accuracy improved by ~30% using better text preprocessing
-- Based on the movie metadata dataset
+This project implements a **Recommendation System** using the Netflix dataset.
+It suggests movies/shows to users based on their preferences, viewing history, and similarity with other users/items.
 
 ---
 
-## 🧠 How It Works
+## 📌 Project Overview
 
-1. **Text Vectorization**:
-   - The movie descriptions are transformed into numerical vectors using **TF-IDF** (Term Frequency-Inverse Document Frequency).
-2. **Similarity Calculation**:
-   - Cosine similarity is calculated between the vectors to find similar movies.
-3. **Recommendation Engine**:
-   - Given a movie title, the system fetches the most similar movies based on their TF-IDF similarity.
+* Built using **Jupyter Notebook (Python)**
+* Uses **Collaborative Filtering & Content-Based Filtering** approaches
+* Dataset: Netflix Movies/Shows dataset (from Kaggle)
+* Goal: Provide personalized recommendations to improve user experience
 
 ---
 
-## 🧰 Tech Stack
+## ⚙️ Tech Stack & Libraries
 
-| Component   | Technology           |
-|-------------|----------------------|
-| Language    | Python               |
-| ML Library  | Scikit-learn (TF-IDF, Cosine) |
-| Web App     | Streamlit            |
-| Data        | Movie Metadata (CSV) |
-| Notebook    | Jupyter (.ipynb)     |
+* **Python**
+* **Pandas** – Data processing
+* **NumPy** – Mathematical operations
+* **Matplotlib / Seaborn** – Data visualization
+* **Scikit-learn** – ML models & similarity metrics
+* **Jupyter Notebook**
+
+---
+
+## 📂 Files in this Repository
+
+* `Netflix_Recommendation.ipynb` – Main Jupyter Notebook with code & results
+* `netflix_titles.csv` – Dataset used for training/testing
+* `README.md` – Project documentation
+
+---
+
+## 🔍 Key Steps Implemented
+
+1. **Data Collection & Cleaning**
+
+   * Loaded Netflix dataset from Kaggle
+   * Removed duplicates, handled missing values
+
+2. **Exploratory Data Analysis (EDA)**
+
+   * Visualized genre distribution, ratings, release years
+   * Insights into most popular genres & countries
+
+3. **Recommendation Models**
+
+   * **Content-Based Filtering**: recommends similar movies based on genre, description, etc.
+   * **Collaborative Filtering**: uses user-item interactions (ratings, preferences)
+
+4. **Evaluation**
+
+   * Cosine similarity, correlation metrics
+   * Sample recommendations for test users
+
+---
+
+## 🎯 Results
+
+* Content-Based: Suggests movies similar to the one user liked
+* Collaborative: Suggests movies based on other users with similar tastes
+* Hybrid model gives better accuracy & diversity
 
 ---
 
 ## 🚀 How to Run
 
-```bash
-# Step 1: Clone the repo
-git clone https://github.com/<your-username>/netflix-recommender.git
-cd netflix-recommender
+   
+1. Install required libraries:
 
-# Step 2: Create virtual environment (optional)
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+     bash
+   pip install -r requirements.txt
 
-# Step 3: Install dependencies
-pip install -r requirements.txt
+2. Open Jupyter Notebook:
 
-# Step 4: Run the Streamlit app
-streamlit run app.py
-```
+     bash
+   jupyter notebook
+   
+3. Run `Netflix_Recommendation.ipynb`
 
 ---
 
-## 📁 Project Structure
+## 📊 Sample Output
 
-```
-netflix_recommender/
-├── app.py                             # Streamlit UI
-├── utils.py                           # Functions for TF-IDF, similarity
-├── requirements.txt                   # Dependencies
-├── README.md
-├── notebook/
-│   └── Netflix_Movie_Recommendation_System.ipynb
-```
+✅ Example: If a user liked *"Inception"*, the model suggests:
 
----
-
-## 📊 Example Output
-
-> User inputs: **Inception**  
-> Output: Shutter Island, Interstellar, The Prestige, etc.
-
----
-
-## 👨‍💻 Author
-
-**Shubham Ghalsasi**  
-Final Year B.Tech – Cloud Computing  
-MIT ADT University  
-📫 ghalsasishubham@gmail.com
+* Interstellar
+* The Prestige
+* Shutter Island
+* Tenet
 
