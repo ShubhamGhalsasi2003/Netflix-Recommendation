@@ -98,3 +98,7 @@ Example: If a user liked *"Inception"*, the model suggests:
 * Shutter Island
 * Tenet
 
+Shubham Ghalsasi
+Final Year B.Tech – Cloud Computing
+MIT ADT University
+📫 ghalsasishubham@gmail.com
